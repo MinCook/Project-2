@@ -1,0 +1,124 @@
+.layoutApply {
+  width: 60%;
+  margin: 0px 20%;
+  padding-top: 10px;
+  margin-bottom: 60px;
+  color: #3ba769;
+  h1 {
+    text-align: center;
+    margin-top: 10px;
+  }
+  &__section1 {
+    border: 1px solid #3ba769;
+  }
+  &__section2 {
+    border: 1px solid #3ba769;
+  }
+  &__section3 {
+    display: flex;
+
+    align-items: center;
+    border: 1px solid #3ba769;
+    padding: 0px 24px;
+    h3 {
+      margin-right: 20px;
+    }
+    &__form1 {
+      width: 36%;
+      margin-top: 30px;
+      margin-right: 20px;
+      .ant-input {
+        width: 306px;
+      }
+    }
+    &__form2 {
+      width: 36%;
+      margin-top: 30px;
+      .ant-input {
+        width: 300px;
+      }
+    }
+  }
+  &__section4 {
+    border: 1px solid #3ba769;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    &__form1 {
+      width: 30%;
+      height: 260px;
+    }
+    &__form2 {
+      width: 30%;
+      height: 260px;
+    }
+    &__form3 {
+      width: 30%;
+      height: 260px;
+    }
+  }
+}
+.form1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  &__right {
+    .ant-form-item-control-input-content {
+      display: block;
+    }
+    &__name {
+      .ant-input {
+        border: none;
+        width: 100%;
+        height: 50px;
+        font-size: 40px;
+      }
+      :hover {
+        outline: 1px dashed #999;
+      }
+    }
+    &__position {
+      .ant-input {
+        border: none;
+        width: 180px;
+        height: 30px;
+        font-size: 20px;
+      }
+      input:hover {
+        outline: 1px dashed #999;
+      }
+    }
+    &__target {
+      .ant-input {
+        border: none;
+        width: 100%;
+        height: 30px;
+        font-size: 20px;
+      }
+      :hover {
+        outline: 1px dashed #999;
+      }
+    }
+  }
+  
+  &__img {
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+.btn__apply {
+  font-size: 16px;
+  margin-top: 10px;
+  float: right;
+}

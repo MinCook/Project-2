@@ -1,0 +1,72 @@
+.layoutLogin {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  &__left {
+    width: 76%;
+    height: 100%;
+    &__header {
+      margin-left: 25%;
+      h1 {
+        color: #00b14f;
+
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 28px;
+        margin: 0px 0px 8px;
+      }
+      p {
+        color: #6c757d;
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+    &__footer {
+      text-align: center;
+    }
+  }
+  &__right {
+    height: 100%;
+    width: 34%;
+    &__background {
+      background-image: url("../image/backgroundLogin.png");
+      background-repeat: none;
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      &__title {
+        padding-top: 48%;
+        padding-left: 30px;
+        h1 {
+          color: #ffffff;
+          font-size: 42px;
+          font-weight: 700;
+          line-height: 50px;
+          margin: 10px 0px;
+        }
+        p {
+          width: 70%;
+          color: #ffffff;
+
+          font-size: 16px;
+          line-height: 22px;
+        }
+        img {
+          width: 40%;
+          height: 40%;
+        }
+      }
+      &__arow {
+        position: absolute;
+        background-image: url("../image/loginArow.webp");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 608px;
+        width: 212px;
+        top: 10%;
+        left: 54%;
+      }
+    }
+  }
+}

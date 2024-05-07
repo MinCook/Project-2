@@ -1,0 +1,31 @@
+.layoutAdmin {
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  &__sider {
+    .image {
+      width: 100%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+  &__content {
+  }
+  &__header {
+    background-color: #00b14f;
+    opacity: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: relative;
+   
+  }
+  &__footer {
+    text-align: center;
+  }
+}
